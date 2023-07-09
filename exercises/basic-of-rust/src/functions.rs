@@ -45,7 +45,6 @@ mod tests {
     fn sum_should_work() {
         let (x, y) = (1, 2);
         let s = sum(x, y);
-
         assert_eq!(s, 3);
     }
 
