@@ -129,3 +129,49 @@ fn exercise8() {
         accounting.push(person);
     }
 }
+
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+    #[test]
+    fn test_exercise1_compile() {
+        exercise1()
+    }
+
+    #[test]
+    fn test_exercise2_compile() {
+        exercise2()
+    }
+
+    #[test]
+    fn test_exercise3_compile() {
+        exercise3()
+    }
+
+    #[test]
+    fn test_exercise4_compile() {
+        exercise4(32);
+        exercise4(100000);
+    }
+
+    #[test]
+    fn test_exercise5_compile() {
+        exercise5()
+    }
+
+    #[test]
+    fn test_exercise6_compile() {
+        exercise6()
+    }
+
+    #[test]
+    fn test_exercise7_compile() {
+        exercise7()
+    }
+
+    #[test]
+    fn test_exercise8_compile() {
+        exercise8()
+    }
+}
