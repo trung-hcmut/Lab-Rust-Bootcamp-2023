@@ -30,19 +30,12 @@ fn calculate_average(numbers: &[f64]) -> f64 {
 // Exercise 4
 // Calculate the sum of all even numbers in a list
 fn sum_even_numbers(numbers: &[i32]) -> i32 {
-<<<<<<< HEAD
-    todo!()
-}
-
-
-=======
     numbers.iter().fold(0, |sum, next| match next % 2 {
         0 => sum + next,
         _ => sum,
     })
 }
 
->>>>>>> 6b48c85b04d510b000fcc10fc339a1acf359ca4a
 #[cfg(test)]
 mod tests {
     use super::*;

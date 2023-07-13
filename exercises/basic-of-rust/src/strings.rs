@@ -64,6 +64,7 @@ mod tests {
     fn exercise3_work() {
         assert_eq!("hello, world!".to_string(), exercise3());
     }
+
     // Test for exercise 4
     #[test]
     fn test_reverse_string() {

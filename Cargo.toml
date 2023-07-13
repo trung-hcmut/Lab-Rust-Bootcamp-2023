@@ -10,7 +10,6 @@ members = [
   "./exercises/basic-of-rust",
   "./exercises/ownership-borrowing",
   "./exercises/complex-type",
-
 ]
 
 [[test]]
@@ -37,6 +36,5 @@ path = "./exercises/complex-type/src/structs.rs"
 name = "enums"
 path = "./exercises/complex-type/src/enums.rs"
 
-
-
 [dependencies]
+
