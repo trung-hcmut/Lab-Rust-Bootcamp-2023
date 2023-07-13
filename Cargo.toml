@@ -8,7 +8,8 @@ authors = ["CocDap"]
 [workspace]
 members = [
   "./exercises/basic-of-rust",
-  "./exercises/ownership-borrowing"
+  "./exercises/ownership-borrowing",
+  "./exercises/complex-type",
 ]
 
 [[test]]
@@ -23,5 +24,17 @@ path = "./exercises/basic-of-rust/src/strings.rs"
 name = "functions"
 path = "./exercises/basic-of-rust/src/functions.rs"
 
+[[test]]
+name = "ownership"
+path = "./exercises/ownership-borrowing/src/lib.rs"
+
+[[test]]
+name = "structs"
+path = "./exercises/complex-type/src/structs.rs"
+
+[[test]]
+name = "enums"
+path = "./exercises/complex-type/src/enums.rs"
 
 [dependencies]
+
