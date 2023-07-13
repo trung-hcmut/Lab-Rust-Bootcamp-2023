@@ -23,5 +23,9 @@ path = "./exercises/basic-of-rust/src/strings.rs"
 name = "functions"
 path = "./exercises/basic-of-rust/src/functions.rs"
 
+[[test]]
+name = "ownership"
+path = "./exercises/ownership-borrowing/src/lib.rs"
+
 
 [dependencies]
